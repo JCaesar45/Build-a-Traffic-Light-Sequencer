@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meridian Atelier — Eighteen movements a year</title>
+  <meta name="description" content="Meridian Atelier hand-finishes eighteen mechanical movements a year. Applications for the current cycle are open.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,460;0,9..144,600;1,9..144,460&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top">Meridian<span class="wordmark-dot">·</span>Atelier</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#movement">The Movement</a>
+      <a href="#allocation">Allocation</a>
+      <a href="#apply" class="nav-cta">Apply</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow">Cycle 09 — applications open</p>
+        <h1 id="hero-heading">
+          Eighteen movements a year.<br>
+          <em>No more.</em>
+        </h1>
+        <p class="hero-lede">
+          Every caliber that leaves the bench at Meridian is regulated, cased, and
+          numbered by one of four finishers. We do not scale. We take a small
+          allocation of applicants each cycle and build for them alone.
+        </p>
+        <div class="hero-actions">
+          <a href="#apply" class="btn btn-primary">Apply for cycle 09</a>
+          <a href="#movement" class="btn btn-ghost">See the caliber</a>
+        </div>
+        <p class="hero-status" id="spots-status" aria-live="polite">Checking remaining allocation…</p>
+      </div>
+
+      <div class="hero-watch" aria-hidden="true">
+        <svg id="watch-face" viewBox="0 0 400 400" role="img" aria-label="Animated Meridian dial showing the current time">
+          <circle class="dial-rim" cx="200" cy="200" r="188" />
+          <circle class="dial-face" cx="200" cy="200" r="176" />
+          <g class="dial-print">
+            <text x="200" y="82" text-anchor="middle">MERIDIAN</text>
+            <text x="200" y="326" text-anchor="middle">ATELIER · SWISS MADE</text>
+          </g>
+          <g id="hour-ticks"></g>
+          <path id="reserve-arc" class="reserve-arc" />
+          <line id="hand-hour" class="hand hand-hour" x1="200" y1="200" x2="200" y2="130" />
+          <line id="hand-minute" class="hand hand-minute" x1="200" y1="200" x2="200" y2="90" />
+          <line id="hand-second" class="hand hand-second" x1="200" y1="215" x2="200" y2="70" />
+          <circle class="pinion" cx="200" cy="200" r="5" />
+        </svg>
+        <p class="watch-caption">Caliber M-07 · live seconds, not decoration</p>
+      </div>
+    </section>
+
+    <section class="manifesto" aria-labelledby="manifesto-heading">
+      <p class="section-eyebrow">01 — Why so few</p>
+      <h2 id="manifesto-heading">We finish by hand because machines can't get bored, and boredom is where mistakes get caught.</h2>
+      <p>
+        Each bridge is hand-bevelled under a loupe before it's allowed near a movement.
+        A finisher who rushes a chamfer will feel it under the loupe before we ever
+        will — that discipline is the entire business model. There is no marketing
+        budget. There has never been a marketing budget. The waitlist exists because
+        four people can only finish so many movements between January and December,
+        and we would rather disappoint you honestly than ship you something we
+        wouldn't wear ourselves.
+      </p>
+    </section>
+
+    <section class="movement" id="movement" aria-labelledby="movement-heading">
+      <p class="section-eyebrow">02 — The caliber</p>
+      <h2 id="movement-heading">M-07, in full</h2>
+      <div class="spec-sheet">
+        <div class="spec-row"><span class="spec-label">Caliber</span><span class="spec-value">M-07, in-house</span></div>
+        <div class="spec-row"><span class="spec-label">Movement</span><span class="spec-value">Manual wind, 31 jewels</span></div>
+        <div class="spec-row"><span class="spec-label">Frequency</span><span class="spec-value">21,600 vph · 3 Hz</span></div>
+        <div class="spec-row"><span class="spec-label">Power reserve</span><span class="spec-value">70 hours</span></div>
+        <div class="spec-row"><span class="spec-label">Regulation</span><span class="spec-value">±3 sec/day, adjusted 5 positions</span></div>
+        <div class="spec-row"><span class="spec-label">Finishing</span><span class="spec-value">Black-polished screws, hand-bevelled bridges, câted mainplate</span></div>
+        <div class="spec-row"><span class="spec-label">Case</span><span class="spec-value">39mm, grade 5 titanium, 100m</span></div>
+        <div class="spec-row"><span class="spec-label">Dial</span><span class="spec-value">Guilloché, grand feu enamel, four colorways per cycle</span></div>
+        <div class="spec-row"><span class="spec-label">Delivery</span><span class="spec-value">6–10 weeks from allocation offer</span></div>
+      </div>
+    </section>
+
+    <section class="allocation" id="allocation" aria-labelledby="allocation-heading">
+      <p class="section-eyebrow">03 — How allocation works</p>
+      <h2 id="allocation-heading">Four steps. No exceptions for anyone, including people we like.</h2>
+      <ol class="allocation-steps">
+        <li>
+          <span class="step-index">01</span>
+          <div>
+            <h3>Apply</h3>
+            <p>Tell us why you want the piece and what you'll wear it against. We read every application ourselves.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-index">02</span>
+          <div>
+            <h3>Review</h3>
+            <p>Within 10 days, the atelier reviews the cycle's applications and shortlists against the remaining allocation.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-index">03</span>
+          <div>
+            <h3>Offer</h3>
+            <p>If you're allocated a build slot, you have 14 days to accept and choose your dial colorway.</p>
+          </div>
+        </li>
+        <li>
+          <span class="step-index">04</span>
+          <div>
+            <h3>Build &amp; deliver</h3>
+            <p>Your movement is cased, regulated to your wrist's five positions, and shipped in 6–10 weeks.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="apply" id="apply" aria-labelledby="apply-heading">
+      <p class="section-eyebrow">04 — Application</p>
+      <h2 id="apply-heading">Request an allocation for cycle 09</h2>
+      <p class="apply-lede" id="estimate-copy">
+        Enter your details and we'll estimate roughly where you'd land in the queue for this cycle.
+      </p>
+
+      <form id="application-form" novalidate>
+        <div class="form-row">
+          <label for="field-name">Full name</label>
+          <input id="field-name" name="name" type="text" autocomplete="name" required minlength="2">
+          <span class="field-error" data-for="name"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="field-email">Email</label>
+          <input id="field-email" name="email" type="email" autocomplete="email" required>
+          <span class="field-error" data-for="email"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="field-country">Country</label>
+          <input id="field-country" name="country" type="text" autocomplete="country-name" required minlength="2">
+          <span class="field-error" data-for="country"></span>
+        </div>
+
+        <div class="form-row">
+          <label for="field-note">Why this piece, and for what</label>
+          <textarea id="field-note" name="note" rows="4" required minlength="20" maxlength="600"></textarea>
+          <span class="field-error" data-for="note"></span>
+        </div>
+
+        <div class="form-row form-row-inline">
+          <button type="submit" class="btn btn-primary" id="submit-btn">Submit application</button>
+          <span class="form-status" id="form-status" aria-live="polite"></span>
+        </div>
+      </form>
+
+      <div class="apply-result" id="apply-result" hidden></div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Meridian Atelier — hand-finished in small numbers. Four finishers, eighteen movements, one bench.</p>
+    <p class="footer-fine">No newsletters. No affiliate links. Applications reviewed by a person.</p>
+  </footer>
+
+  <script type="module" src="js/app.js"></script>
+  <script defer src="js/script.js"></script>
+</body>
+
+</html>
